@@ -22,16 +22,16 @@ public class Author {
     private String name;
     private String lastName;
     private LocalDate birthdate;
-    private String counrty;
+    private String country;
 
     public Author() {
     }
 
-    public Author(String name, String lastName, LocalDate birthdate, String counrty) {
+    public Author(String name, String lastName, LocalDate birthdate, String country) {
         this.name = name;
         this.lastName = lastName;
         this.birthdate = birthdate;
-        this.counrty = counrty;
+        this.country = country;
     }
 
     public String getName() {
@@ -58,11 +58,11 @@ public class Author {
         this.birthdate = birthdate;
     }
 
-    public String getCounrty() {
-        return counrty;
+    public String getCountry() {
+        return country;
     }
 
-    public void setCounrty(String counrty) {
-        this.counrty = counrty;
+    public void setCountry(String country) {
+        this.country = country;
     }
 }
